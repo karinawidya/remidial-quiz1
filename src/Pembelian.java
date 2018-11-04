@@ -19,6 +19,30 @@ public class Pembelian {
         this.barang = barang;
         this.pelanggan = pelanggan;
     }
+
+    public String getKodePembelian() {
+        return kodePembelian;
+    }
+
+    public void setKodePembelian(String kodePembelian) {
+        this.kodePembelian = kodePembelian;
+    }
+
+    public Barang getBarang() {
+        return barang;
+    }
+
+    public void setBarang(Barang barang) {
+        this.barang = barang;
+    }
+
+    public Pelanggan getPelanggan() {
+        return pelanggan;
+    }
+
+    public void setPelanggan(Pelanggan pelanggan) {
+        this.pelanggan = pelanggan;
+    }
     
     
     
