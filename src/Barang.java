@@ -15,6 +15,19 @@ public class Barang {
    private float diskon;
    private int jumlah;
    private float hargaTotal;
+
+   public Barang() {
+   }
+
+   public Barang(String kode, String namaBarang, int harga, float diskon, int jumlah) {
+        this.kode = kode;
+        this.namaBarang = namaBarang;
+        this.harga = harga;
+        this.diskon = diskon;
+        this.jumlah = jumlah;
+   }
+   
+   
    
     
 }
