@@ -13,6 +13,12 @@ public class Pembelian {
     private Barang barang;
     private Pelanggan pelanggan;
     private float hargaTotal;
+
+    public Pembelian(String kodePembelian, Barang barang, Pelanggan pelanggan) {
+        this.kodePembelian = kodePembelian;
+        this.barang = barang;
+        this.pelanggan = pelanggan;
+    }
     
     
     
