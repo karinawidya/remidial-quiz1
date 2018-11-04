@@ -43,6 +43,10 @@ public class Pembelian {
     public void setPelanggan(Pelanggan pelanggan) {
         this.pelanggan = pelanggan;
     }
+
+    public float getHargaTotal() {
+        return hargaTotal;
+    }
     
     
     
