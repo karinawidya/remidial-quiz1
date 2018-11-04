@@ -48,6 +48,14 @@ public class Pembelian {
         return hargaTotal;
     }
     
-    
+    public void cetak(){
+        System.out.println("Kode Transaksi  : "+barang.getKode());
+        System.out.println("Nama Pelanggan  : "+pelanggan.getNama());
+        System.out.println("ID Barang       : "+pelanggan.getId());
+        System.out.println("Nama Barang     : "+barang.getNamaBarang());
+        System.out.println("Harga Barang    : "+barang.getHarga());
+        System.out.println("Jumlah          : "+barang.getJumlah());
+        System.out.println("Harga Tptal     : "+barang.getHargaTotal());
+    }
     
 }
