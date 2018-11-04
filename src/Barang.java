@@ -26,6 +26,55 @@ public class Barang {
         this.diskon = diskon;
         this.jumlah = jumlah;
    }
+
+    public String getKode() {
+        return kode;
+    }
+
+    public void setKode(String kode) {
+        this.kode = kode;
+    }
+
+    public String getNamaBarang() {
+        return namaBarang;
+    }
+
+    public void setNamaBarang(String namaBarang) {
+        this.namaBarang = namaBarang;
+    }
+
+    public int getHarga() {
+        return harga;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public float getDiskon() {
+        return diskon;
+    }
+
+    public void setDiskon(float diskon) {
+        this.diskon = diskon;
+    }
+
+    public int getJumlah() {
+        return jumlah;
+    }
+
+    public void setJumlah(int jumlah) {
+        this.jumlah = jumlah;
+    }
+
+    public float getHargaTotal() {
+        return hargaTotal;
+    }
+
+    public void setHargaTotal(float hargaTotal) {
+        this.hargaTotal = hargaTotal;
+    }
+   
    
    
    
