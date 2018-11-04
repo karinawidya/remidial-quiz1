@@ -9,6 +9,12 @@
  * @author ASUS
  */
 public class Barang {
-    tes dulu pak;
+   private String kode;
+   private String namaBarang;
+   private int harga;
+   private float diskon;
+   private int jumlah;
+   private float hargaTotal;
+   
     
 }
