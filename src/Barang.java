@@ -67,16 +67,11 @@ public class Barang {
         this.jumlah = jumlah;
     }
 
-    public float getHargaTotal() {
-        return hargaTotal;
-    }
-
     public void setHargaTotal(float hargaTotal) {
         this.hargaTotal = hargaTotal;
     }
    
-   
-   
-   
-    
+   public float getHargaTotal(){
+       return (jumlah*harga) - (jumlah*harga*diskon);
+   }  
 }
